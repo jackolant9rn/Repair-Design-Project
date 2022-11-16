@@ -85,19 +85,19 @@ body * {
 }
 
 .front {
-    background-image: url(../images/room.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), url(../images/room.jpg);
     background-size: cover;
     height: 707px;
     padding-top: 194px;
     position: relative;
 }
 
-.front-container {
+<!-- .front-container {
     position: relative;
     z-index: 1
-}
+} -->
 
-.front-overlay {
+<!-- .front-overlay {
     position: absolute;
     content: '';
     top: 0;
@@ -105,7 +105,7 @@ body * {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
-}
+} -->
 
 .title {
     margin: 0;
