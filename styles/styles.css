@@ -85,19 +85,14 @@ body * {
 }
 
 .front {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), url(../images/room.jpg);
+    background-image: url(../images/room.jpg);
     background-size: cover;
     height: 707px;
     padding-top: 194px;
     position: relative;
 }
 
-<!-- .front-container {
-    position: relative;
-    z-index: 1
-} -->
-
-<!-- .front-overlay {
+.front::before {
     position: absolute;
     content: '';
     top: 0;
@@ -105,7 +100,13 @@ body * {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
-} -->
+}
+
+.front-container {
+    position: relative;
+    width: 520px;
+    margin-left: 134px;
+}
 
 .title {
     margin: 0;
@@ -115,5 +116,76 @@ body * {
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
+}
+
+.highlighted-text {
+    color: #E3B873;
+}
+
+.front-container-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: white;
+    width: 504;
+    margin-top: 19px;
+}
+
+.calculate-button {
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 19px 42px 20px 41px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    margin-top: 41px;
+}
+
+.transparent-button {
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 19px 23px 20px 22px;
+    background: none;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.completed-projects {
+    background-color: #131313;
+    /*height: 1074px;*/
+    padding-top: 107px;
+    padding-bottom: 415px;
+    position: relative;
+}
+
+.completed-nav {
+    list-style: none;
+    display: flex;
+    margin-left: 626px;
+    width: 623px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.completed-nav-item {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.copmleted-nav-link {
+    text-decoration: none;
+}
+
+.copmleted-nav-link:hover {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
 }
