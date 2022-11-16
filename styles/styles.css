@@ -94,7 +94,7 @@ body * {
 .front-container {
     position: relative;
     width: 520px;
-    margin-left: 134px;
+    margin-left: 137px;
 }
 
 .title {
@@ -127,7 +127,7 @@ body * {
     height: 51px;
     font-size: 11px;
     line-height: 15px;
-    padding: 19px 42px 20px 41px;
+    padding: 19px 42px 21px 41px;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     margin-top: 41px;
 }
@@ -137,7 +137,7 @@ body * {
     height: 51px;
     font-size: 11px;
     line-height: 15px;
-    padding: 19px 23px 20px 22px;
+    padding: 19px 23px 21px 22px;
     background: none;
     border: 1px solid white;
     margin-left: 20px;
@@ -145,10 +145,15 @@ body * {
 
 .completed-projects {
     background-color: #131313;
-    /*height: 1074px;*/
     padding-top: 107px;
     padding-bottom: 415px;
     position: relative;
+}
+
+.completed-container {
+    position: relative;
+    width: 1171px;
+    margin-left: 135px;
 }
 
 .completed-nav {
@@ -169,11 +174,11 @@ body * {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.copmleted-nav-link {
+.completed-nav-link {
     text-decoration: none;
 }
 
-.copmleted-nav-link:hover {
+.completed-nav-link:hover {
     padding-bottom: 6px;
     border-bottom: 1px solid #E3B873;
     color: #E3B873;
