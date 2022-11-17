@@ -159,7 +159,7 @@ body * {
 .completed-nav {
     list-style: none;
     display: flex;
-    margin-left: 626px;
+    margin-left: 491px;
     width: 623px;
     height: 24px;
     justify-content: space-between;
@@ -171,15 +171,69 @@ body * {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.3);
 }
 
 .completed-nav-link {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
 }
 
-.completed-nav-link:hover {
+.completed-nav-link:active {
     padding-bottom: 6px;
     border-bottom: 1px solid #E3B873;
     color: #E3B873;
+}
+
+.completed-title-container {
+    margin: 0;
+    width: 200px;
+    height: 66px;
+    position: relative;
+}
+
+.completed-title {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.completed-description {
+    margin: 34px 0px 0px 0px;
+    width: 442px;
+    height: 86px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: white;
+}
+
+.completed-characteristics {
+    margin: 42px 0px 0px 0px;
+    width: 400px;
+    overflow: hidden
+}
+
+.characteristics-column {
+    float: left;
+    width: 50%;
+}
+
+.completed-subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.completed-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
 }
