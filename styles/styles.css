@@ -163,7 +163,7 @@ body * {
 }
 
 .completed-title {
-    margin-top: 77px;
+    margin-top: 70px;
     font-weight: 400;
     font-size: 27px;
     line-height: 37px;
@@ -217,6 +217,7 @@ body * {
 }
 
 .completed-items {
+    margin: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -244,19 +245,20 @@ body * {
 }
 
 .completed-image {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .completed-nav-container {
-    margin-top: 70px;
+    padding: 0;
+    margin-top: 45px;
     width: 206px;
+    height: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .arrow-left {
-    padding: 0;
     width: 42px;
     height: 14px;
     border: none;
@@ -266,7 +268,6 @@ body * {
 }
 
 .arrow-right {
-    padding: 0;
     width: 42px;
     height: 14px;
     border: none;
@@ -276,17 +277,16 @@ body * {
 }
 
 .completed-nav {
+    padding: 0;
+    width: 64px;
     list-style: none;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .completed-nav-item {
-    padding: 0;
     width: 10px;
     height: 10px;
-    margin-right: 18px;
     border: none;
     background: #131313 no-repeat;
     text-indent: -9999px;
