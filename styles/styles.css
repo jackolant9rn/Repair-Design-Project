@@ -547,3 +547,16 @@ body * {
     line-height: 200%;
     color: #959595;
 }
+
+.price-button {
+    padding: 17px;
+    width: 228px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
