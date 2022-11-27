@@ -300,17 +300,18 @@ body * {
 .online-control {
     margin-top: -324px;
     position: relative;
-}
-
-.control-title-container {
-    width: 196px;
-    height: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.control-title-container {
+    width: 196px;
+    height: 70px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .control-title {
@@ -319,11 +320,9 @@ body * {
 }
 
 .camera-separator {
-    width: 60%;
     margin-top: 12px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .control-video {
@@ -367,9 +366,98 @@ body * {
 }
 
 .control-description {
-    width: 631px;
+    width: 681px;
     height: 131px;
     margin-top: 35px;
     display: flex;
     text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+    color: #363636;
+}
+
+.control-input {
+    width: 769px;
+    height: 51px;
+    margin-top: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /*padding-top: 75px;
+    padding-bottom: 37px;*/
+}
+
+.contacts {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.input-contacts {
+    width: 231px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    outline: none;
+}
+
+.input-contacts::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+
+.submit-button {
+    width: 200px;
+    height: 51px;
+    font-style: normal;
+    padding: 0;
+    border-radius: 0;
+}
+
+.control-checkbox {
+    margin-top: 35px;
+    /*margin: 0 auto;*/
+}
+
+.label {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.fake::before {
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+    font-size: small;
+}
+
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+.checkbox-text {
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
 }
