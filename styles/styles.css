@@ -540,6 +540,7 @@ body * {
     color: #363636;
     padding-top: 25px;
     padding-left: 31px;
+    margin: 0;
 }
 
 .repair-catalog-list {
@@ -559,4 +560,64 @@ body * {
     line-height: 25px;
     border-radius: 0px;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.benefits-and-request {
+    display: flex;
+    margin-top: 124px;
+    justify-content: space-between;
+}
+
+.benefits {
+    width: 703px;
+    height: 645px;
+    background-image: url('../images/city.png');
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transform: scale(-1, 1);
+    opacity: 20%;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 117px;
+}
+
+.benefits-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+    margin-right: 11px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    height: 55px;
+    width: 55px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+}
+
+.benefit {
+    font-family: 'Nunito Sans', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
 }
