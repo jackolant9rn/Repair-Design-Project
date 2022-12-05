@@ -392,21 +392,21 @@ body * {
     flex-direction: column;
 }
 
-.contacts {
+.contact {
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
 }
 
-.input-contacts {
+.input-contact {
     width: 231px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     outline: none;
 }
 
-.input-contacts::placeholder {
+.input-contact::placeholder {
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
@@ -625,12 +625,120 @@ body * {
     color: #363636;
 }
 
-.request {
+.request-and-discount {
+    width: 506px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 106px;
+    margin-left: 190px;
+}
+
+.request-container {
     width: 506px;
     height: 509px;
     background-color: #131313;
-    margin-top: 106px;
-    margin-left: 190px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.request-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 28px auto 28px;
+    text-align: center;
+}
+
+.request-input {
+    width: 408px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.request-contacts-container {
+    display: flex;
+    flex-direction: column;
+}
+        
+.request-contact {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.request-contact-input {
+    width: 408px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    outline: none;
+    background-color: #131313;
+    color: white;
+}
+
+.request-contact-input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.request-checkbox {
+    width: 408px;
+    margin-top: 16px;
+}
+
+.req-checkbox-text {
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+}
+
+.call-measurer {
+    width: 213px;
+    height: 51px;
+    margin-top: 39px;
+    margin-left: 244px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 120%;
+}
+
+.discount-container {
+    width: 471px;
+    height: 72px;
+    margin-top: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.piggy-bank {
+    background: #E3B873;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    border-radius: 50%;
+}
+
+.piggy-bank-icon {
+    width: 40px;
+}
+
+.discount-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
