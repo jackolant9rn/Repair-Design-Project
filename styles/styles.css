@@ -736,9 +736,95 @@ body * {
 }
 
 .discount-text {
+    width: 344px;
+    height: 72px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.wildest-fantasies {
+    height: 864px;
+    margin-top: 242px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/wildest-fantasies.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.wildest-fantasies::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wf-list-container {
+    width: 411px;
+    height: 629px;
+    margin-top: 137px;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wf-title-container {
+    width: 411px;
+    height: 66px;
+}
+
+.wf-title {
+    font-size: 27px;
+    line-height: 120%;
+    color: #E3B873;
+}
+
+.wf-list {
+    list-style: none;
+    margin: 47px 0px 98px;
+    padding: 0;
+}
+
+.wf-list-item {
+    margin-bottom: 25px;
+}
+
+.wf-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.wf-list-link:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.wf-image-container {
+    position: relative;
+    width: 354px;
+    margin: -41px 0px -41px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wf-image-container2 {
+    position: relative;
+    width: 354px;
+    margin: -113px 0px 0px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
