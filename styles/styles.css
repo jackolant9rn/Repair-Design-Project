@@ -333,6 +333,7 @@ body * {
     align-items: center;
     background-image: url('../images/online-control-img.png');
     background-repeat: no-repeat;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
 }
 
 .control-video::before {
@@ -642,6 +643,7 @@ body * {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
 }
 
 .request-text {
@@ -814,7 +816,9 @@ body * {
 .wf-image-container {
     position: relative;
     width: 354px;
-    margin: -41px 0px -41px 120px;
+    height: 946px;
+    margin-top: -41px;
+    margin-left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -823,8 +827,128 @@ body * {
 .wf-image-container2 {
     position: relative;
     width: 354px;
-    margin: -113px 0px 0px 43px;
+    height: 937px;
+    margin-top: -113px;
+    margin-left: 43px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-clients {
+    height: 642px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-clients-title-container {
+    width: 150px;
+    text-align: center;
+}
+
+.our-clients-title {
+    font-size: 20px;
+    line-height: 120%;
+    color: #181818;
+}
+
+.handshake-separator {
+    margin-top: 12px;
+    display: flex;
     justify-content: space-evenly;
+}
+
+.recommendation {
+    width: 476px;
+    height: 57px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.reviews-container {
+    width: 1236px;
+    height: 455px;
+    margin: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.client-review {
+    width: 376px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.client-photo-name {
+    width: 263px;
+    height: 76px;
+    margin-top: 24px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.client-photo {
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+}
+
+.client-name {
+    padding-left: 9px;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.client-review-text {
+    width: 324px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.client-review-interline {
+    width: 293px;
+    display: flex;
+    min-height: 54px;
+    margin-top: 63px;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.interline-meters {
+    width: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.interline-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.interline-text {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.interline-days {
+    width: 158px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 0.75px solid #FFFFFF;
 }
