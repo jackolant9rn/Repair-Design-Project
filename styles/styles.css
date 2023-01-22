@@ -74,7 +74,7 @@ body * {
 }
 
 .front {
-    background-image: url(../images/room.jpg);
+    background-image: url('../images/room.jpg');
     background-size: cover;
     height: 707px;
     padding-top: 194px;
@@ -118,8 +118,9 @@ body * {
     font-size: 22px;
     line-height: 36px;
     color: white;
-    width: 504;
+    width: 520px;
     margin-top: 19px;
+    padding: 0;
 }
 
 .calculate-button {
@@ -180,6 +181,10 @@ body * {
     font-size: 14px;
     line-height: 27px;
     color: white;
+}
+
+.completed-mob-image {
+    display: none;
 }
 
 .completed-characteristics {
@@ -264,7 +269,7 @@ body * {
     border: none;
     background: #131313 no-repeat;
     text-indent: -9999px;
-    background-image: url(../images/arrow-left.svg);
+    background-image: url('../images/arrow-left.svg');
 }
 
 .arrow-right {
@@ -273,7 +278,7 @@ body * {
     border: none;
     background: #131313 no-repeat;
     text-indent: -9999px;
-    background-image: url(../images/arrow-right.svg);
+    background-image: url('../images/arrow-right.svg');
 }
 
 .completed-nav {
@@ -290,11 +295,11 @@ body * {
     border: none;
     background: #131313 no-repeat;
     text-indent: -9999px;
-    background-image: url(../images/dot.svg);
+    background-image: url('../images/dot.svg');
 }
 
 .completed-nav-selected {
-    background-image: url(../images/dot-selected.svg);
+    background-image: url('../images/dot-selected.svg');
 }
 
 .online-control {
@@ -308,7 +313,7 @@ body * {
 }
 
 .control-title-container {
-    width: 200px;
+    width: 235px;
     height: 70px;
     margin-bottom: 40px;
     text-align: center;
@@ -333,6 +338,7 @@ body * {
     align-items: center;
     background-image: url('../images/online-control-img.png');
     background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
 }
 
@@ -355,10 +361,11 @@ body * {
     height: 120px;
     border: none;
     text-indent: -9999px;
-    background-image: url(../images/play.svg);
+    background-image: url('../images/play.svg');
     background-size: cover;
     background-color: transparent;
 }
+
 .line-separator {
     width: 100%;
     margin-top: 62px;
@@ -412,6 +419,10 @@ body * {
     font-size: 14px;
     line-height: 23px;
     color: #363636;
+}
+
+.control-checkbox-mob {
+    display: none;
 }
 
 .submit-button {
@@ -471,7 +482,7 @@ body * {
 }
 
 .repair-title-container {
-    width: 200px;
+    width: 257px;
     height: 70px;
     text-align: center;
 }
@@ -509,7 +520,7 @@ body * {
 .redecoration {
     width: 392px;
     height: 421px;
-    background-image: url(../images/redecoration.png);
+    background-image: url('../images/redecoration.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -518,7 +529,7 @@ body * {
 .overhaul {
     width: 392px;
     height: 421px;
-    background-image: url(../images/overhaul.png);
+    background-image: url('../images/overhaul.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -527,7 +538,7 @@ body * {
 .designer-repair {
     width: 392px;
     height: 421px;
-    background-image: url(../images/designer-repair.png);
+    background-image: url('../images/designer-repair.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -756,7 +767,7 @@ body * {
     margin-top: 242px;
     display: flex;
     flex-direction: row;
-    background-image: url(../images/wildest-fantasies.jpg);
+    background-image: url('../images/wildest-fantasies.jpg');
     background-size: cover;
     position: relative;
 }
@@ -957,14 +968,14 @@ body * {
 .cityline {
     height: 355px;
     width: 100%;
-    background-image: url(../images/cityline.png);
+    background-image: url('../images/cityline.png');
     background-size: 45%;
     background-position: bottom;
 }
 
 .questions-and-contacts {
     height: 954px;
-    background-image: url(../images/office.jpg);
+    background-image: url('../images/office.jpg');
     background-size: cover;
     position: relative;
     display: flex;
@@ -1086,7 +1097,7 @@ body * {
     height: 465px;
     position: relative;
     margin-top: 43px;
-    background-image: url(../images/map.jpg);
+    background-image: url('../images/map.jpg');
 }
 
 .footer {
@@ -1095,4 +1106,268 @@ body * {
 
 .footer-content {
     height: 133px;
+}
+
+@media screen and (max-width: 1299px) {
+    
+    .container {
+        padding: 0px 18px;
+    }
+
+    .header-content {
+        height: 57px;
+    }
+
+    .logo{
+        margin: 0;
+    }
+    
+    .header-nav {
+        display: none;
+    }
+
+    .phone {
+        text-decoration-line: none;
+        color: #FFFFFF;
+        margin: 0;
+        min-width: auto;
+    }
+    
+    .request-call {
+        display: none;
+    }
+
+    .front {
+        padding-top: 85px;
+        width: 100%;
+        height: 476px;
+    }
+
+    .front-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    .turnkey-repair {
+        font-size: 23px;
+        line-height: 30.55px;
+    }
+
+    .front-container-text {
+        font-size: 14px;
+        line-height: 19.02px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .calculate-button {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .transparent-button {
+        margin: 26px 0px 61px;
+        width: 100%;
+    }
+
+    .completed-projects {
+        padding: 0;
+    }
+
+    .completed-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 670px;
+        margin: auto;
+    }
+
+    .completed-column-one {
+        float: none;
+        width: 100%;
+    }
+
+    .completed-title {
+        margin-top: 36px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.07em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+
+    .completed-description {
+        margin: 22px auto 0px;
+        width: 100%;
+        height: 86px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        color: white;
+        text-align: center;
+    }
+
+    .completed-mob-image {
+        display: flex;
+        min-width: 340px;
+        min-height: 241px;
+        width: 100%;
+        height: auto;
+        background: center center no-repeat url('../images/room-mobile.png');
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ellipse-button-left {
+        width: 36px;
+        height: 36px;
+        border: none;
+        margin-left: 13px;
+        text-indent: -9999px;
+        background-image: url('../images/ellipse-left.svg');
+        background-size: cover;
+        background-color: transparent;
+    }
+
+    .ellipse-button-right {
+        width: 36px;
+        height: 36px;
+        border: none;
+        margin-right: 13px;
+        text-indent: -9999px;
+        background-image: url('../images/ellipse-right.svg');
+        background-size: cover;
+        background-color: transparent;
+    }
+
+    .completed-nav-container {
+        display: none;
+    }
+
+    .completed-column-two {
+        display: none;
+    }
+
+    .online-control {
+        margin: 0;
+        background-color: #131313;
+        padding: 0px 18px;
+    }
+
+    .control-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .completed-characteristics {
+        padding: 0;
+    }
+
+    .completed-subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .completed-text {
+        font-size: 11px;
+        line-height: 18px;
+    }
+  
+   .control-video {
+        padding: 0;
+        width: 340px;
+        height: 207px;
+    }
+
+    .control-video::before {
+        width: 340px;
+        height: 207px;
+    }
+
+    .play-button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .line-separator {
+        margin-top: 28px;
+    }
+
+    .control-description {
+        width: auto;
+        height: 107px;
+        margin-top: 21px;
+        font-size: 11px;
+        line-height: 19px;
+        color: white;
+    }
+
+    .control-input {
+        width: 100%;
+        height: 311px;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .input-container {
+       width: 100%;
+       height: 45px;
+    }
+
+    .contact {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .input-contact {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        padding-bottom: 8px;
+        outline: none;
+        background-color: #131313;
+        color: white;
+    }
+    
+    .input-contact::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .control-checkbox-mob {
+        display: flex;
+        width: 100%;
+    }
+
+    .submit-button {
+        width: 100%;
+        margin-top: 62px;
+        margin-bottom: -25px;
+    }
+
+    .control-checkbox {
+        display: none;
+    }
+
+    .repair-types {
+        margin-top: 83px;
+        padding: 0px 18px;
+    }
+
+    .repair-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .repair-catalog {
+        flex-direction: column;
+        padding: 0px 18px;
+    }
+
 }
